@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
+.navbar {
+	border-radius: 0;
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 300;
+	box-shadow: 0px 1px 3px #2a2a2a;
+}
+.navbar-inverse .navbar-brand {
+	color: #99ffcc;
+	padding-right: 1.5em;
+	font-family: 'Lobster Two', cursive;	
+	font-size: 3em;
+	letter-spacing: .15em;
+}
+
+
+.navbar-right {
+	padding-right: 1.5em;
+}
+
+.btn-custom {
+  background-color: hsl(0, 100%, 82%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fecccc", endColorstr="#fea3a3");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fecccc), to(#fea3a3));
+  background-image: -moz-linear-gradient(top, #fecccc, #fea3a3);
+  background-image: -ms-linear-gradient(top, #fecccc, #fea3a3);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fecccc), color-stop(100%, #fea3a3));
+  background-image: -webkit-linear-gradient(top, #fecccc, #fea3a3);
+  background-image: -o-linear-gradient(top, #fecccc, #fea3a3);
+  background-image: linear-gradient(#fecccc, #fea3a3);
+  border-color: #fea3a3 #fea3a3 hsl(0, 100%, 80%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.13);
+  -webkit-font-smoothing: antialiased;
+}
