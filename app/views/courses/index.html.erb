@@ -8,10 +8,16 @@
 	<div class="booyah-box col-xs-10 col-xs-offset-1">
 		<h2 class="text-center"><%= link_to course.title, course_path(course) %></h2>
 		<br />
+		<div class="col-xs-8 col-xs-offset-2">
+			<%= image_tag course.image, class: 'img-responsive' %>
+			<br/>
+		</div>
+		<br class="clr"/>
 		<div class="col-sm-8 col-xs-12">
 			<%= course.description %>
 		</div>
-		<div class="col-sm-4 col-xs-12 text-center">
+		<br/>
+		<div class="col-sm-4 col-xs-12 text-center pull-right">
 			<%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %> 
 		</div>
 		<br class="clr" />
