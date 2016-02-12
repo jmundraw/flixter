@@ -19,6 +19,9 @@ gem 'simple_form'
 gem 'coffee-rails', '~> 4.0.0'
 
 gem 'carrierwave'
+gem 'figaro'
+
+gem "fog", "~> 1.3.1"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
