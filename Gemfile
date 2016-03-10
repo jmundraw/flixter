@@ -21,6 +21,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'carrierwave'
 gem 'carrierwave-aws'
 gem 'figaro'
+gem 'stripe'
 
 gem "fog", "~> 1.3.1"
 
