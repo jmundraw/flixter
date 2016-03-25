@@ -22,6 +22,8 @@ gem 'carrierwave'
 gem 'carrierwave-aws'
 gem 'figaro'
 gem 'stripe'
+gem 'kaminari'
+gem 'ranked-model'
 
 gem "fog", "~> 1.3.1"
 
